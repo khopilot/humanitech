@@ -1,7 +1,7 @@
 name = "mine-action-ai-backend"
 main = "./workers/app.ts"
-compatibility_date = "2024-06-01"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat_v2"]
 
 [env.production.vars]
 ENVIRONMENT = "production"
@@ -28,6 +28,3 @@ R2_PUBLIC_URL = "https://e8fa8d76479de666118db7977d6a949e.r2.cloudflarestorage.c
 # Observability
 [observability]
 enabled = true
-
-# Upload source maps
-upload_source_maps = true

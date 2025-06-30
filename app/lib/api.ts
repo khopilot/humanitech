@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import axios from 'axios';
 import { useAuthStore } from '~/store/auth';
 
 // Configuration de l'URL de l'API selon l'environnement

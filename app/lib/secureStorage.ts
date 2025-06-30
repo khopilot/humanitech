@@ -1,4 +1,4 @@
-import { StateStorage } from 'zustand/middleware';
+import type { StateStorage } from 'zustand/middleware';
 
 // Simple encryption/decryption for demo purposes
 // In production, use a proper encryption library
