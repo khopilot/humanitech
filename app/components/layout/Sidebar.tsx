@@ -1,15 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import { cn } from '~/lib/utils';
-import {
-  FileText,
-  BarChart3,
-  MessageCircle,
-  AlertTriangle,
-  ClipboardList,
-  Upload,
-  Home,
-  FolderOpen,
-} from 'lucide-react';
+import { FileText } from 'lucide-react/dist/esm/icons/file-text';
+import { BarChart3 } from 'lucide-react/dist/esm/icons/bar-chart-3';
+import { MessageCircle } from 'lucide-react/dist/esm/icons/message-circle';
+import { AlertTriangle } from 'lucide-react/dist/esm/icons/alert-triangle';
+import { ClipboardList } from 'lucide-react/dist/esm/icons/clipboard-list';
+import { Upload } from 'lucide-react/dist/esm/icons/upload';
+import { Home } from 'lucide-react/dist/esm/icons/home';
+import { FolderOpen } from 'lucide-react/dist/esm/icons/folder-open';
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: Home },

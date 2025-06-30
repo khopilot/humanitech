@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react/dist/esm/icons/message-circle';
 
 export default function ChatIndex() {
   return (

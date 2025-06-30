@@ -4,7 +4,8 @@ import { useAuthStore } from '~/store/auth';
 import { Button } from '~/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '~/components/ui/card';
 import { Input } from '~/components/ui/input';
-import { AlertTriangle, Loader2 } from 'lucide-react';
+import { AlertTriangle } from 'lucide-react/dist/esm/icons/alert-triangle';
+import { Loader2 } from 'lucide-react/dist/esm/icons/loader-2';
 import { useToast } from '~/components/ui/use-toast';
 
 export default function Login() {

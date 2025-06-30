@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Button } from '~/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '~/components/ui/card';
-import { ClipboardList, Plus } from 'lucide-react';
+import { ClipboardList } from 'lucide-react/dist/esm/icons/clipboard-list';
+import { Plus } from 'lucide-react/dist/esm/icons/plus';
 
 export default function SOPIndex() {
   return (

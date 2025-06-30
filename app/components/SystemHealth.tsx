@@ -1,7 +1,10 @@
 import { useQuery } from '@tanstack/react-query';
 import { apiClient } from '~/lib/api';
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
-import { CheckCircle2, XCircle, AlertCircle, RefreshCw } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react/dist/esm/icons/check-circle-2';
+import { XCircle } from 'lucide-react/dist/esm/icons/x-circle';
+import { AlertCircle } from 'lucide-react/dist/esm/icons/alert-circle';
+import { RefreshCw } from 'lucide-react/dist/esm/icons/refresh-cw';
 import { Button } from '~/components/ui/button';
 
 interface HealthResponse {

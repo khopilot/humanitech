@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react/dist/esm/icons/arrow-left';
 import { Button } from '~/components/ui/button';
 
 export default function DocumentDetail() {
