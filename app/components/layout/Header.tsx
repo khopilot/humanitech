@@ -10,11 +10,11 @@ import {
   DropdownMenuTrigger,
 } from '~/components/ui/dropdown-menu';
 import { Avatar, AvatarFallback } from '~/components/ui/avatar';
-import { Bell } from 'lucide-react/dist/esm/icons/bell';
-import { LogOut } from 'lucide-react/dist/esm/icons/log-out';
-import { Settings } from 'lucide-react/dist/esm/icons/settings';
-import { User } from 'lucide-react/dist/esm/icons/user';
-import { AlertTriangle } from 'lucide-react/dist/esm/icons/alert-triangle';
+import Bell from 'lucide-react/dist/esm/icons/bell';
+import LogOut from 'lucide-react/dist/esm/icons/log-out';
+import Settings from 'lucide-react/dist/esm/icons/settings';
+import User from 'lucide-react/dist/esm/icons/user';
+import AlertTriangle from 'lucide-react/dist/esm/icons/alert-triangle';
 
 export function Header() {
   const { user, logout } = useAuthStore();

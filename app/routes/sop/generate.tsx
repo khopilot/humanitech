@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react/dist/esm/icons/arrow-left';
+import ArrowLeft from 'lucide-react/dist/esm/icons/arrow-left';
 import { Button } from '~/components/ui/button';
 
 export default function SOPGenerate() {

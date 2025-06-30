@@ -2,14 +2,14 @@ import { useQuery } from '@tanstack/react-query';
 import { useMemo } from 'react';
 import { analyticsApi } from '~/lib/api';
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
-import { FileText } from 'lucide-react/dist/esm/icons/file-text';
-import { BarChart3 } from 'lucide-react/dist/esm/icons/bar-chart-3';
-import { AlertTriangle } from 'lucide-react/dist/esm/icons/alert-triangle';
-import { MessageCircle } from 'lucide-react/dist/esm/icons/message-circle';
-import { TrendingUp } from 'lucide-react/dist/esm/icons/trending-up';
-import { Users } from 'lucide-react/dist/esm/icons/users';
-import { Clock } from 'lucide-react/dist/esm/icons/clock';
-import { Activity } from 'lucide-react/dist/esm/icons/activity';
+import FileText from 'lucide-react/dist/esm/icons/file-text';
+import BarChart3 from 'lucide-react/dist/esm/icons/bar-chart-3';
+import AlertTriangle from 'lucide-react/dist/esm/icons/alert-triangle';
+import MessageCircle from 'lucide-react/dist/esm/icons/message-circle';
+import TrendingUp from 'lucide-react/dist/esm/icons/trending-up';
+import Users from 'lucide-react/dist/esm/icons/users';
+import Clock from 'lucide-react/dist/esm/icons/clock';
+import Activity from 'lucide-react/dist/esm/icons/activity';
 import type { AnalyticsStats, ActivityItem } from '~/types/api';
 
 interface StatCard {

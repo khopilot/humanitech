@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Button } from '~/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '~/components/ui/card';
-import { BarChart3 } from 'lucide-react/dist/esm/icons/bar-chart-3';
-import { Plus } from 'lucide-react/dist/esm/icons/plus';
+import BarChart3 from 'lucide-react/dist/esm/icons/bar-chart-3';
+import Plus from 'lucide-react/dist/esm/icons/plus';
 
 export default function ReportsIndex() {
   return (

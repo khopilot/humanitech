@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
-import { AlertTriangle } from 'lucide-react/dist/esm/icons/alert-triangle';
+import AlertTriangle from 'lucide-react/dist/esm/icons/alert-triangle';
 
 export default function RiskAnalysisIndex() {
   return (
