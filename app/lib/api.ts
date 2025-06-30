@@ -3,7 +3,7 @@ import { useAuthStore } from '~/store/auth';
 
 // Configuration de l'URL de l'API selon l'environnement
 const API_BASE_URL = import.meta.env.PROD
-  ? 'https://humanitech.workers.dev/api'
+  ? 'https://humanitech.pienikdelrieu.workers.dev/api'
   : 'http://localhost:8787/api';
 
 export const apiClient = axios.create({

@@ -22,7 +22,7 @@ bucket_name = "minedec"
 
 # Variables d'environnement (utiliser wrangler secret pour les valeurs sensibles)
 [vars]
-CORS_ORIGINS = "http://localhost:5173,https://humanitech.pages.dev,https://humanitech.workers.dev"
+CORS_ORIGINS = "http://localhost:5173,https://humanitech.pages.dev,https://humanitech.pienikdelrieu.workers.dev,https://a9f5753c-humanitech.pienikdelrieu.workers.dev"
 R2_PUBLIC_URL = "https://e8fa8d76479de666118db7977d6a949e.r2.cloudflarestorage.com/minedec"
 
 # Observability
