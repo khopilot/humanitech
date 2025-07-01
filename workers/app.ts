@@ -24,8 +24,14 @@ app.use('*', secureHeaders());
 
 app.use('/api/*', cors({
   origin: (origin) => {
-    const allowedOrigins = ['http://localhost:5173', 'https://your-frontend.workers.dev'];
-    return allowedOrigins.includes(origin) || origin?.endsWith('.workers.dev');
+    const allowedOrigins = ['http://localhost:5173', 'https://humanitech.pages.dev', 'https://humanitech.pienikdelrieu.workers.dev', 'https://a9f5753c-humanitech.pienikdelrieu.workers.dev'];
+    
+    // Allow any workers.dev subdomain including version-prefixed ones
+    if (origin && (allowedOrigins.includes(origin) || origin.endsWith('.pienikdelrieu.workers.dev'))) {
+      return origin;
+    }
+    
+    return null;
   },
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowHeaders: ['Content-Type', 'Authorization'],
